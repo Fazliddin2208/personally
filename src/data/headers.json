@@ -1,0 +1,51 @@
+{
+  "top": {
+    "links": [
+      {
+        "id": 0,
+        "link_uz": "Maqolalar",
+        "link_eng": "Articles",
+        "link_ru": "Статьи",
+        "url": "/articles"
+      },
+      {
+        "id": 1,
+        "link_uz": "Ijtimoiy tarmoqlar",
+        "link_eng": "Social media",
+        "link_ru": "Социальные сети",
+        "url": "/social"
+      }
+    ],
+    "langs": [
+      {
+        "id": 0,
+        "lang": "O'zbek",
+        "value": "uz",
+        "icon": "https://flagicons.lipis.dev/flags/4x3/uz.svg"
+      },
+      {
+        "id": 1,
+        "lang": "English",
+        "value": "eng",
+        "icon": "https://flagicons.lipis.dev/flags/4x3/gb.svg"
+      },
+      {
+        "id": 2,
+        "lang": "Русский",
+        "value": "ru",
+        "icon": "https://flagicons.lipis.dev/flags/4x3/ru.svg"
+      }
+    ]
+  },
+  "data": {
+    "title_uz": "Alisher Rustamov",
+    "title_eng": "Alisher Rustamov",
+    "title_ru": "Алишер Рустамов",
+    "description_uz": "Malevich Consulting asoschilaridan biri va 16 yillik SERVIS bo‘yicha mutaxassis",
+    "description_eng": "One of the founders of Malevich Consulting and a 16-year SERVICE specialist",
+    "description_ru": "Один из основателей Malevich Consulting и специалист по СЕРВИСУ с 16-летним стажем.",
+    "button_uz": "Men haqimda",
+    "button_eng": "About me",
+    "button_ru": "Oбо мне"
+  }
+}

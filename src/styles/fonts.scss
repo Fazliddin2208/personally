@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap; 
+    src: local('Railway'),
+        url('../fonts/Raleway-Regular.ttf') format('truetype');
+        unicode-range: U+000-5FF; 
+}
+
+%font_normal{
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap; 
+    src: local('Raleway'),
+        url('../fonts/Raleway-Medium.ttf') format('truetype');
+        unicode-range: U+000-5FF; 
+}
+
+%font_medium{
+    font-family: 'Raleway-Medium';
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap; 
+    src: local('Raleway'),
+        url('../fonts/Raleway-SemiBold.ttf') format('truetype');
+        unicode-range: U+000-5FF; 
+}
+
+%font_semibold{
+    font-family: 'Raleway-SemiBold';
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap; 
+    src: local('Raleway'),
+        url('../fonts/Raleway-Bold.ttf') format('truetype');
+        unicode-range: U+000-5FF; 
+}
+
+%font_bold{
+    font-family: 'Raleway-Bold';
+    font-weight: 900;
+}

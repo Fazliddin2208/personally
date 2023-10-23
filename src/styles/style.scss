@@ -1,0 +1,22 @@
+@import './fonts.scss';
+@import './globals.scss';
+
+h2{
+    color: $main-color;
+    @extend %font_bold;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: $main-color;
+    color: $white;
+    border-radius: 10px;
+    border: none;
+    @extend %font_bold;
+    cursor: pointer;
+}

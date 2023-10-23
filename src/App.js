@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Main from "./pages/Main";
+import './styles/style.scss'
+import { initializeStore } from "./redux/configureStore";
+import { Provider } from "react-redux";
+import { PersistGate } from "redux-persist/integration/react";
 
 function App() {
+  const { store, persistor } = initializeStore(); 
   return (
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}> 
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Main />} />
+        </Routes>
+      </BrowserRouter>
     </div>
+    </PersistGate>
+    </Provider> 
   );
 }
 
