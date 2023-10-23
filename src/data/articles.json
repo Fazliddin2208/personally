@@ -1,0 +1,17 @@
+{
+    "articles": [
+      {
+        "title": "Article 1",
+        "imagePath": "./../../assets/images/articleImg1.png"
+      },
+      {
+        "title": "Article 2",
+        "imagePath": "assets/images/articleImg2.png"
+      },
+      {
+        "title": "Article 3",
+        "imagePath": "/static/media/articleImg1.805d880afd48120fb5a5.png"
+      }
+    ]
+  }
+  

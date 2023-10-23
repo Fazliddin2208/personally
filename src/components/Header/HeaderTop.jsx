@@ -35,11 +35,6 @@ export default function HeaderTop() {
     setOpenMenu(!openMenu);
   };
 
-  const handleCloseMenu = () => {
-    setOpenMenu(false);
-  };
-  console.log(openMenu);
-
   return (
     <header className="header-top">
       <div className="header-top__left">
