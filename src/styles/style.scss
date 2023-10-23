@@ -20,3 +20,8 @@ body{
     @extend %font_bold;
     cursor: pointer;
 }
+
+.content{
+    border: 1px solid red;
+    padding: 50px 7%;
+}

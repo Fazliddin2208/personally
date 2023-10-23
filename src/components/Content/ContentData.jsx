@@ -4,9 +4,9 @@ import ContentMore from './ContentMore'
 
 export default function ContentData() {
   return (
-    <main>
+    <div>
         <ContentFirst />
         <ContentMore />
-    </main>
+    </div>
   )
 }
