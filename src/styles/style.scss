@@ -245,9 +245,13 @@ body {
   padding: 50px 7%;
 
   img{
-    max-width: 50%;
+    max-width: 40%;
     margin: 0 auto;
     display: block;
+
+    @media (max-width: 700px){
+      max-width: 60%;
+    }
   }
 
   h2{
