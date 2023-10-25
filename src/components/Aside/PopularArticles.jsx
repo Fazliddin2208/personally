@@ -31,7 +31,7 @@ export default function PopularArticles({ locale }) {
       <div className="aside-popular__cards">
         {articles?.map((article, index) => (
           <div key={index} className="aside-popular__cards__card">
-            <Link to={"/"}>
+            <Link to={`/article/${article?.id}`}>
               <p>
                 {locale === "eng"
                   ? article?.title_eng
