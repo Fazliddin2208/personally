@@ -1,0 +1,85 @@
+@import "/src/styles/fonts.scss";
+@import "/src/styles/globals.scss";
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  &-popular {
+    h3 {
+      margin: 0;
+      @extend %font_bold;
+    }
+
+    &__cards {
+      &__card {
+        border-bottom: 1px solid #d2d2d2;
+
+        &:last-child {
+          border: none;
+        }
+        a {
+          text-decoration: none;
+          color: $main-color;
+          p {
+            @extend %font_normal;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  &-socials {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    h3 {
+      @extend %font_bold;
+    }
+
+    &__links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      a {
+        display: block;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        text-decoration: none;
+        color: $main-color;
+
+        &:hover {
+          background-color: $yellow;
+        }
+      }
+    }
+
+    @media (max-width: 700px) {
+      text-align: center;
+      padding: 50px 7%;
+
+      &__links{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 300px) {
+      text-align: center;
+
+      &__links{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+  }
+
+  @media (max-width: 700px){
+    margin-top: 50px;
+  }
+}

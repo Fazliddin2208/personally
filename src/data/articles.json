@@ -1,17 +1,144 @@
 {
-    "articles": [
-      {
-        "title": "Article 1",
-        "imagePath": "./../../assets/images/articleImg1.png"
-      },
-      {
-        "title": "Article 2",
-        "imagePath": "assets/images/articleImg2.png"
-      },
-      {
-        "title": "Article 3",
-        "imagePath": "/static/media/articleImg1.805d880afd48120fb5a5.png"
-      }
-    ]
-  }
-  
+  "articles": [
+    {
+      "id": 0,
+      "date": "13.05.2023",
+      "title_uz": "Motivasiya bergim keladi ayrim payt",
+      "title_eng": "Sometimes I want to give motivation",
+      "title_ru": "Иногда мне хочется дать мотивацию",
+      "summary_uz": "Lekin men etib bergan hikoyalar ko‘pincha tasirli bo‘lmaydi, negadir. Hikoya so‘zlash ham bir san’at ekan.",
+      "summary_eng": "But the stories I tell are often not effective, for some reason. Storytelling is also an art.",
+      "summary_ru": "Но истории, которые я рассказываю, по каким-то причинам часто неэффективны. Рассказывание историй — это тоже искусство.",
+      "description_uz": "Lekin men etib bergan hikoyalar ko‘pincha tasirli bo‘lmaydi, negadir. Hikoya so‘zlash ham bir san’at ekan.Lekin men etib bergan hikoyalar ko‘pincha tasirli bo‘lmaydi, negadir. Hikoya so‘zlash ham bir san’at ekan.Lekin men etib bergan hikoyalar ko‘pincha tasirli bo‘lmaydi, negadir. Hikoya so‘zlash ham bir san’at ekan.",
+      "description_eng": "But the stories I tell are often not effective, for some reason. Telling a story is also an art. But the stories I tell are often not effective, for some reason. Telling a story is also an art. But the stories I tell are often not effective, for some reason. Storytelling is also an art.",
+      "description_ru": "Но истории, которые я рассказываю, по каким-то причинам часто неэффективны. Рассказывать истории — это тоже искусство, но истории, которые я рассказываю, часто по каким-то причинам неэффективны. Рассказывать истории — это тоже искусство, но истории, которые я рассказываю, часто по каким-то причинам неэффективны. Рассказывание историй – это тоже искусство.",
+      "imagePath": "https://www.gazeta.uz/media/img/2019/08/ustq4l15663924507966_l.jpg"
+    },
+    {
+      "id": 1,
+      "date": "13.08.2023",
+      "title_uz": "Motivasiya bergim keladi ayrim payt",
+      "title_eng": "Sometimes I want to give motivation",
+      "title_ru": "Иногда мне хочется дать мотивацию",
+      "summary_uz": "Lekin men etib bergan hikoyalar ko‘pincha tasirli bo‘lmaydi, negadir. Hikoya so‘zlash ham bir san’at ekan.",
+      "summary_eng": "But the stories I tell are often not effective, for some reason. Storytelling is also an art.",
+      "summary_ru": "Но истории, которые я рассказываю, по каким-то причинам часто неэффективны. Рассказывание историй — это тоже искусство.",
+      "description_uz": "Lekin men etib bergan hikoyalar ko‘pincha tasirli bo‘lmaydi, negadir. Hikoya so‘zlash ham bir san’at ekan.Lekin men etib bergan hikoyalar ko‘pincha tasirli bo‘lmaydi, negadir. Hikoya so‘zlash ham bir san’at ekan.Lekin men etib bergan hikoyalar ko‘pincha tasirli bo‘lmaydi, negadir. Hikoya so‘zlash ham bir san’at ekan.",
+      "description_eng": "But the stories I tell are often not effective, for some reason. Telling a story is also an art. But the stories I tell are often not effective, for some reason. Telling a story is also an art. But the stories I tell are often not effective, for some reason. Storytelling is also an art.",
+      "description_ru": "Но истории, которые я рассказываю, по каким-то причинам часто неэффективны. Рассказывать истории — это тоже искусство, но истории, которые я рассказываю, часто по каким-то причинам неэффективны. Рассказывать истории — это тоже искусство, но истории, которые я рассказываю, часто по каким-то причинам неэффективны. Рассказывание историй – это тоже искусство.",
+      "imagePath": "https://img.freepik.com/free-photo/motivational-composition-goal-achievement_23-2150490010.jpg?t=st=1698132737~exp=1698133337~hmac=098b8688babf570f5e5a99b249eb0e76254271de19a55c0d2ed4203ac1190af4"
+    },
+    {
+      "id": 2,
+      "date": "13.08.2023",
+      "title_uz": "Boy-otaning xayotidan.",
+      "title_eng": "From the life of a rich dad.",
+      "title_ru": "Из жизни богатого человека.",
+      "summary_uz": "Qiyin bo‘lsa ham, bir nechta odam non topyapdi. Yana bir yil guv etib o‘tib ketdi.",
+      "summary_eng": "Although it is difficult, several people are earning bread. Another year has passed.",
+      "summary_ru": "Хоть это и сложно, но несколько человек зарабатывают на хлеб. Прошел еще один год.",
+      "description_uz": "Qiyin bo‘lsa ham, bir nechta odam non topyapdi. Yana bir yil guv etib o‘tib ketdi.Qiyin bo‘lsa ham, bir nechta odam non topyapdi. Yana bir yil guv etib o‘tib ketdi.Qiyin bo‘lsa ham, bir nechta odam non topyapdi. Yana bir yil guv etib o‘tib ketdi.Qiyin bo‘lsa ham, bir nechta odam non topyapdi. Yana bir yil guv etib o‘tib ketdi.Qiyin bo‘lsa ham, bir nechta odam non topyapdi. Yana bir yil guv etib o‘tib ketdi.Qiyin bo‘lsa ham, bir nechta odam non topyapdi. Yana bir yil guv etib o‘tib ketdi.Qiyin bo‘lsa ham, bir nechta odam non topyapdi. Yana bir yil guv etib o‘tib ketdi.",
+      "description_eng": "Although it is difficult, several people are earning bread. Another year has passed. Even though it is difficult, a few people are earning bread. Another year has passed. Even though it is difficult, a few people are earning bread. Another year has passed. Even though it is difficult, a few people are earning bread. Another year has passed. Even though it is difficult, a few people are earning bread. Another year has passed. Even though it is difficult, a few people are earning bread. Another year has passed. Even though it is difficult, a few people are earning bread. Another year has passed.",
+      "description_ru": "Хоть это и сложно, но несколько человек зарабатывают на хлеб. Прошел еще один год, хоть и трудно, но на хлеб мало кто зарабатывает. Прошел еще один год, хоть и трудно, но на хлеб мало кто зарабатывает. Прошел еще один год, хоть и трудно, но на хлеб мало кто зарабатывает. Прошел еще один год, хоть и трудно, но на хлеб мало кто зарабатывает. Прошел еще один год, хоть и трудно, но на хлеб мало кто зарабатывает. Прошел еще один год, хоть и трудно, но на хлеб мало кто зарабатывает. Прошел еще один год.",
+      "imagePath": "https://media.newyorker.com/photos/594044d90c240c2a1fd678ce/4:3/w_2559,h_1919,c_limit/970324_ra409.jpg"
+    },
+    {
+      "id": 3,
+      "date": "13.08.2023",
+      "title_uz": "Xayotda shunday vaziyatlar bo‘ladiki, kimdan yordam so‘ramang…",
+      "title_eng": "There are situations in life when you don't need to ask anyone for help…",
+      "title_ru": "Бывают в жизни ситуации, когда не нужно ни у кого просить помощи…",
+      "summary_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "summary_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "summary_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "description_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "description_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "description_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "imagePath": "https://www.gazeta.uz/media/img/2019/08/97SW3I15663926778097_b.jpg"
+    },
+    {
+      "id": 4,
+      "date": "13.08.2023",
+      "title_uz": "Xayotda shunday vaziyatlar bo‘ladiki, kimdan yordam so‘ramang…",
+      "title_eng": "There are situations in life when you don't need to ask anyone for help…",
+      "title_ru": "Бывают в жизни ситуации, когда не нужно ни у кого просить помощи…",
+      "summary_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "summary_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "summary_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "description_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "description_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "description_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "imagePath": "https://etalim.uz/wp-content/uploads/2020/07/kpi-swot.jpg"
+    },
+    {
+      "id": 5,
+      "date": "13.08.2023",
+      "title_uz": "Xayotda shunday vaziyatlar bo‘ladiki, kimdan yordam so‘ramang…",
+      "title_eng": "There are situations in life when you don't need to ask anyone for help…",
+      "title_ru": "Бывают в жизни ситуации, когда не нужно ни у кого просить помощи…",
+      "summary_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "summary_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "summary_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "description_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "description_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "description_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "imagePath": "https://img.freepik.com/free-photo/business-brainstorming-graph-chart-report-data-concept_53876-31213.jpg?w=996&t=st=1698132616~exp=1698133216~hmac=6811f0cdf00051bf845a5f29dbc2e0426b698e80b523fa8823ccba4427544b51"
+    },
+    {
+      "id": 6,
+      "date": "13.08.2023",
+      "title_uz": "Xayotda shunday vaziyatlar bo‘ladiki, kimdan yordam so‘ramang…",
+      "title_eng": "There are situations in life when you don't need to ask anyone for help…",
+      "title_ru": "Бывают в жизни ситуации, когда не нужно ни у кого просить помощи…",
+      "summary_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "summary_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "summary_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "description_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "description_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "description_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "imagePath": "https://img.freepik.com/free-vector/idea-concept-with-ladder-light-bulb-design-yellow-background-vector-illustration_1017-41045.jpg?t=st=1698132737~exp=1698133337~hmac=3f69efae07d752fd366f78e2828b8c4c84701dfa7ca4d73dba147a61b02c50bb"
+    },
+    {
+      "id": 7,
+      "date": "13.08.2023",
+      "title_uz": "Xayotda shunday vaziyatlar bo‘ladiki, kimdan yordam so‘ramang…",
+      "title_eng": "There are situations in life when you don't need to ask anyone for help…",
+      "title_ru": "Бывают в жизни ситуации, когда не нужно ни у кого просить помощи…",
+      "summary_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "summary_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "summary_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "description_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "description_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "description_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "imagePath": "https://img.freepik.com/free-vector/business-people-with-balance-scales-gold-vs-cryptocurrency-concept_1150-52730.jpg?w=1060&t=st=1698132915~exp=1698133515~hmac=fcf1ec1e33d0c49c91d7a0667928b76717927980061acdd828f6c107633ec180"
+    },
+    {
+      "id": 8,
+      "date": "13.08.2023",
+      "title_uz": "Xayotda shunday vaziyatlar bo‘ladiki, kimdan yordam so‘ramang…",
+      "title_eng": "There are situations in life when you don't need to ask anyone for help…",
+      "title_ru": "Бывают в жизни ситуации, когда не нужно ни у кого просить помощи…",
+      "summary_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "summary_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "summary_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "description_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "description_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "description_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "imagePath": "https://img.freepik.com/free-photo/successful-entrepreneurs-analyzing-perspectives_1163-5270.jpg?t=st=1698132951~exp=1698133551~hmac=3c77426df8e0f6aa3ad35d29a650d49a0a5e3590d0ed4917180beead7cd61ffe"
+    },
+    {
+      "id": 9,
+      "date": "13.08.2023",
+      "title_uz": "Xayotda shunday vaziyatlar bo‘ladiki, kimdan yordam so‘ramang…",
+      "title_eng": "There are situations in life when you don't need to ask anyone for help…",
+      "title_ru": "Бывают в жизни ситуации, когда не нужно ни у кого просить помощи…",
+      "summary_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "summary_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "summary_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "description_uz": "Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul qilish kerak emas ekan…",
+      "description_eng": "Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...Recently I heard a conversation of a psychologist. He said that no important financial decisions should be made at that time...",
+      "description_ru": "Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...Недавно услышал разговор психолога. Он заявил, что в это время не следует принимать никаких важных финансовых решений...",
+      "imagePath": "https://img.freepik.com/free-photo/attractive-dark-haired-man-is-working-table-office-he-wears-blue-shirt-with-black-jacket-he-is-taking-cup-coffee-smiling-camera_197531-516.jpg?t=st=1698133002~exp=1698133602~hmac=101da505d27620045fd314b80d8f26211f7ba323e143798c60404ad93f1fd96d"
+    }
+  ]
+}

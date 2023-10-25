@@ -1,0 +1,44 @@
+@import "/src/styles/fonts.scss";
+@import "/src/styles/globals.scss";
+
+.footer-content{
+    padding: 50px 7%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+
+    &__info{
+        color: $white;
+        h2{
+            @extend %font_bold;
+            font-size: 35px;
+            width: 40%;
+            margin: 0;
+        }
+        p{
+            @extend %font_normal;
+            width: 46%;
+            font-size: 17px;
+        }
+    }
+
+    @media (max-width: 900px){
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+
+        &__info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                width: 47%;
+            }
+        }
+    }
+}
