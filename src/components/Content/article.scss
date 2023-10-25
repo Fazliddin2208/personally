@@ -188,3 +188,37 @@
     padding: 0 2%;
   }
 }
+
+.article-oneArticle{
+
+  &__back{
+    cursor: pointer;
+    display: inline;
+    &:hover{
+      color: $yellow;
+    }
+  }
+
+  h2{
+    @extend %font_bold;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  b{
+    @extend %font_bold;
+    display: block;
+    font-size: 17px
+  }
+
+  p{
+    @extend %font_normal;
+    margin-bottom: 40px;
+
+    &:last-child{
+      text-indent: 20px;
+    }
+  }
+}

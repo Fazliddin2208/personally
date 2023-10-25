@@ -19,7 +19,7 @@
     display: flex;
     gap: 15px;
     @extend %font_semibold;
-    margin-top: 15px;
+    // margin-top: 15px;
     padding: 0px 7%;
 
     &__left {
@@ -107,7 +107,7 @@
             }
           }
 
-          button{
+          button {
             display: block;
           }
         }
@@ -154,7 +154,6 @@
     }
 
     @media (max-width: 860px) {
-
       &__action {
         button {
           display: none;
@@ -163,7 +162,21 @@
     }
 
     @media (max-width: 650px) {
+      display: flex;
       justify-content: space-between;
+      align-items: flex-start;
+      padding-top: 15px;
+
+      &__left {
+        a {
+          height: 100%;
+          display: block;
+          img {
+            height: 100%;
+            display: block;
+          }
+        }
+      }
       &__right {
         display: none;
       }
@@ -175,6 +188,7 @@
         border-radius: 10px;
         cursor: pointer;
         min-width: 20px;
+        margin-top: -5px;
 
         &.active {
           background-color: #ffc017;
@@ -206,9 +220,10 @@
         height: 30px;
         margin: 0;
         transition: 0.3s all ease;
+        background-color: $white;
 
         &:hover {
-          background-color: #f6f7f8;
+          background-color: #d3d4d4;
         }
         img {
           width: 30px;
@@ -240,10 +255,12 @@
         font-size: 20px;
         width: 50%;
       }
-      button {
-        padding: 15px;
+      a {
+        text-decoration: none;
+        text-align: center;
+        padding: 12px;
         font-size: 16px;
-        min-width: 120px;
+        min-width: 100px;
       }
     }
 

@@ -10,6 +10,7 @@ import Logo from "./../../assets/images/Logo.png";
 import db from "./../../data/headers.json";
 import { useDispatch, useSelector } from "react-redux";
 import { setLocale } from "../../redux/actions/localeActions";
+import MessageModal from "../MessageModal";
 
 export default function HeaderTop() {
   const dispatch = useDispatch();
@@ -34,6 +35,17 @@ export default function HeaderTop() {
   const handleOpenMenu = () => {
     setOpenMenu(!openMenu);
   };
+
+  const [messageModalOpen, setMessageModalOpen] = useState(false)
+
+  const openMessageModal = () => {
+    setMessageModalOpen(true)
+    setOpenMenu(false)
+  }
+
+  const closeMessageModal = () => {
+    setMessageModalOpen(false)
+  }
 
   return (
     <header className="header-top">
@@ -95,7 +107,7 @@ export default function HeaderTop() {
               </p>
             ))}
           </div>
-          <button className="button">
+          <button onClick={openMessageModal} className="button">
             {locale === "eng"
               ? "Leave a message"
               : locale === "ru"
@@ -104,6 +116,7 @@ export default function HeaderTop() {
           </button>
         </div>
       </div>
+          <MessageModal open={messageModalOpen} onClose={closeMessageModal} locale={locale} />
     </header>
   );
 }

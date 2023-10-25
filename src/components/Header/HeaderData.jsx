@@ -2,6 +2,7 @@ import React from "react";
 import Person from "./../../assets/images/alisher.png";
 import db from "./../../data/headers.json";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 export default function HeaderData() {
   const locale = useSelector((state) => state.locale);
@@ -23,13 +24,13 @@ export default function HeaderData() {
             ? db?.data?.description_ru
             : db?.data?.description_uz}
         </p>
-        <button className="button">
+        <Link to="/about" className="button">
           {locale === "eng"
             ? db?.data?.button_eng
             : locale === "ru"
             ? db?.data?.button_ru
             : db?.data?.button_uz}
-        </button>
+        </Link>
       </div>
       <div className="header-data__right">
         <img src={Person} alt="person foto" />

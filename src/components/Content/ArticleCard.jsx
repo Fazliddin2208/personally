@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function ArticleCard({ article, index }) {
   const locale = useSelector((state) => state.locale);
   return (
-    <Link to={"/"} className="article-cards__card">
+    <Link to={`/article/${article?.id}`} className="article-cards__card">
       <div className="article-cards__card__header">
         <img src={article?.imagePath} alt={article.imagePath} />
       </div>

@@ -11,7 +11,7 @@ export default function ContentData() {
     <div className="content-data">
       <ContentFirst />
       <ContentMore />
-      <Link to={"/"} className="more-btn">
+      <Link to={"/articles"} className="more-btn">
         {locale === 'eng' ? 'More articles' : locale === 'ru' ? 'Более cтатьи' : "Ko'proq maqolalar"}
       </Link>
     </div>
